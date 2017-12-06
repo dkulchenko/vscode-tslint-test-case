@@ -1,0 +1,15 @@
+{
+  "defaultSeverity": "warning",
+  "extends": "tslint-config-airbnb",
+  "rules": {
+    "import/no-extraneous-dependencies": ["error", {
+      "optionalDependencies": ["test/unit/index.js"]
+    }],
+    "no-debugger": 0,
+    "no-console": 0,
+    "import-name": false,
+    "align": [true, "parameters"],
+    "quotemark": [true, "single", "avoid-escape"],
+    "no-else-after-return": false
+  }
+}
